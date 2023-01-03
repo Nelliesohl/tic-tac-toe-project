@@ -11,3 +11,18 @@ View live project here - [Tic Tac Toe](***INSERT HERE***)
 
 
 ---
+
+## Table Of Contents
+
+* [Tic-Tac-Toe Benefits](#tic-tac-toe-benefits)
+* [How To Play](#how-to-play) 
+* [User Stories](#user-stories) 
+* [Flow Chart](#flow-chart) 
+* [Features](#features)
+* [Future Features](#future-features)
+* [Technology](#technology)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+---
