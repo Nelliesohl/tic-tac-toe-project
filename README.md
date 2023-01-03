@@ -145,4 +145,4 @@ __Code__
 
 ---
 
-[Top of page](#think-tac-toe:-the-developmental-values-of-the-game-with-a-brain)
+[Top of page](#think-tac-toe-the-developmental-values-of-the-game-with-a-brain)
