@@ -3,6 +3,9 @@ import os
 # https://github.com/timofurrer/colorful
 import colorful
 
+# Global variables
+grid = [str("-") for i in range(1, 10)]
+
 
 def game_introduction():
     """
