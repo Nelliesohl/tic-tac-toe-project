@@ -92,3 +92,57 @@ __Visitor Goals__
 - As a visiting user, I want to get direct feedback on my actions throughout the game.
 
 ---
+
+## Flow Chart
+
+---
+
+## Features
+
+---
+
+## Future Features
+
+---
+
+## Technology
+
+__Technology__
+
+---
+
+__Libraries__
+
+---
+
+## Testing
+
+__Manual Testing__
+
+---
+
+__Validator Testing__
+
+---
+
+__Unfixed Bugs__
+
+---
+
+## Deployment
+
+__How to deploy__
+
+---
+
+## Credits 
+
+__Text content__
+
+---
+
+__Code__
+
+---
+
+[Top of page](#think-tac-toe:-the-developmental-values-of-the-game-with-a-brain)
