@@ -31,7 +31,6 @@ def start_game():
         start = input("Press 's' followed by 'enter' to start!\n").lower()
 
         if start == 's':
-            print("Let's play!")
             break
         else:
             print("\nIncorrect input. Try again:")
