@@ -22,9 +22,17 @@ def game_introduction():
 
 def start_game():
     """
-    Prompts user input to start game
+    Prompts user input to start game.
+    Prints error message if user input is incorrect.
     """
-    start = input("Press 's' followed by 'enter' to start!\n").lower()
+    while True:
+        start = input("Press 's' followed by 'enter' to start!\n").lower()
+
+        if start == 's':
+            print("Let's play!")
+            break
+        else:
+            print("\nIncorrect input. Try again:")
 
 
 game_introduction()
