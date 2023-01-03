@@ -4,7 +4,7 @@ import colorful
 
 def game_introduction():
     """
-    Prints game introduction to console when script runs.
+    Prints the initializing game introduction to console when script runs.
     """
     print("\n" + " " * 13 + "TIC - TAC - TOE")
     print("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
