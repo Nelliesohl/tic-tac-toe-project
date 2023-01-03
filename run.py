@@ -55,6 +55,29 @@ def clear_console():
         os.system('CLS')
 
 
+def print_game_board():
+    """
+    Prints game board and reference board to console when function is called.
+    """
+    print("\n" + " " * 13 + "TIC - TAC - TOE")
+    print("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
+    print("=========================================\n")
+    print("  " + "-------------" + " " * 11 + "-------------")
+    print("  | " + grid[0] + " | " + grid[1] + " | " + grid[2] + " |" +
+          " " * 9 + "  | " + "1" + " | " + "2" + " | " + "3" + " |")
+    print("  " + "|---|---|---|" + " " * 11 + "|---|---|---|")
+    print("  | " + grid[3] + " | " + grid[4] + " | " + grid[5] + " |" +
+          " " * 9 + "  | " + "4" + " | " + "5" + " | " + "6" + " |")
+    print("  " + "|---|---|---|" + " " * 11 + "|---|---|---|")
+    print("  | " + grid[6] + " | " + grid[7] + " | " + grid[8] + " |" +
+          " " * 9 + "  | " + "7" + " | " + "8" + " | " + "9" + " |")
+    print("  " + "-------------" + " " * 11 + "-------------\n")
+    print("=========================================")
+    print("Player: " + colorful.bold_green('x') + " | Computer: " +
+          colorful.bold_red('o') + " | Reference Board \n")
+
+
 game_introduction()
 start_game()
 clear_console()
+print_game_board()
