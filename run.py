@@ -37,5 +37,22 @@ def start_game():
             print("\nIncorrect input. Try again:")
 
 
+# https://stackoverflow.com/questions/2084508/clear-terminal-in-python
+def clear_console():
+    """
+    Clears console to simplify UX and clear visual clutter
+    when function is called.
+    """
+    # Thanks to Steven D'Aprano, http://www.velocityreviews.com/forums
+
+    if os.name == "posix":
+        # for OS => Unix / Linux / MacOS / BSD / etc
+        os.system('clear')
+    elif os.name in ("nt", "dos", "ce"):
+        #  for OS => DOS / Windows
+        os.system('CLS')
+
+
 game_introduction()
 start_game()
+clear_console()
