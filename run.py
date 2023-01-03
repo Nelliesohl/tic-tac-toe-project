@@ -20,4 +20,12 @@ def game_introduction():
     print("=========================================\n")
 
 
+def start_game():
+    """
+    Prompts user input to start game
+    """
+    start = input("Press 's' followed by 'enter' to start!\n").lower()
+
+
 game_introduction()
+start_game()
