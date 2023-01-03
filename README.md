@@ -1,31 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Think-Tac-Toe: The developmental values of the game with a brain
 
-Welcome USER_NAME,
+![Web Screenshot](assets/images/mockup.png)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+The rationale for this project was to create a fun Tic-Tac-Toe game for children, which runs in the Code Institute mock terminal on Heroku. By encouraging logical thinking, Tic-Tac-Toe helps children develop their spatial skills. This skill is important for their problem solving abilities — from everyday simple chores to complex mathematical equations
 
-## Reminders
+Users will go up against the computer in a classical game of Tic-Tac-Toe. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+If played optimally by both players, the game always ends in a tie, making Tic-Tac-Toe a futile game that's been played and enjoyed for centuries.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+View live project here - [Tic Tac Toe](***INSERT HERE***)
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+---
