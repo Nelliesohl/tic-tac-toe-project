@@ -66,3 +66,17 @@ If you have a young child or much older adult struggling with confidence, playin
 Mental stimulation is essential for everyone’s health. The more you stimulate your mind with exercises, puzzles, games, and social encounters, the healthier your mind will be. Now more than ever, mental health is in the spotlight. Do the right thing for your brain and give it a workout with Tic-Tac-Toe. 
 
 ---
+
+## How To Play
+
+
+1. The game is played on a grid that's 3 squares by 3 squares.
+
+2. You are X, your friend (or the computer in this case) is O. 
+Players take turns putting their marks in empty squares.
+
+3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+
+4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+
+---
