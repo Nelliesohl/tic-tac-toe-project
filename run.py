@@ -77,7 +77,15 @@ def print_game_board():
           colorful.bold_red('o') + " | Reference Board \n")
 
 
+def get_user_move():
+    """
+    Prompts user to input a number between 1-9 to place their mark.
+    """
+    user_choice = input("[1-9]... What will be your choice ?\n")
+
+
 game_introduction()
 start_game()
 clear_console()
 print_game_board()
+get_user_move()
