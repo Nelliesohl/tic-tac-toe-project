@@ -80,3 +80,15 @@ Players take turns putting their marks in empty squares.
 4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
 
 ---
+
+## User Stories
+
+__Visitor Goals__
+
+- As a visiting user, I want to quickly understand the purpose of the site and its intended use.
+- As a visiting user, I want to easily understand how to play and start the game.
+- As a visiting user, I want to excercise my Tic-Tac-Toe skills playing against a computer.
+- As a visiting user, I want to be able to play as many times as I would like.
+- As a visiting user, I want to get direct feedback on my actions throughout the game.
+
+---
