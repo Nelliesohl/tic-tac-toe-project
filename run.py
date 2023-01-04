@@ -95,6 +95,16 @@ def get_user_move():
             print("\nInvalid input. Try again:")
 
 
+def alternate_player():
+    """
+    Alternates between player and computer
+    """
+    if current_player == "x":
+        current_player = "o"
+    else:
+        current_player = "x"
+
+
 def check_horizontal(grid):
     """
     Checks horizontal rows for 3 identical marks to see if there's a winner.
