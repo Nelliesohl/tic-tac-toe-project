@@ -81,6 +81,8 @@ def print_game_board():
 def get_user_move():
     """
     Prompts user to input a number between 1-9 to place their mark.
+    Checks if user input and grid choice is valid.
+    Displays error message if input is invalid.
     """
     while True:
         user = input("[1-9]... What will be your choice ?\n")
