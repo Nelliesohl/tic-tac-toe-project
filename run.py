@@ -6,6 +6,7 @@ import colorful
 # Global variables
 grid = [str("-") for i in range(1, 10)]
 current_player = "x"
+winner = None
 
 
 def game_introduction():
@@ -99,3 +100,5 @@ start_game()
 clear_console()
 print_game_board()
 get_user_move()
+clear_console()
+print_game_board()
