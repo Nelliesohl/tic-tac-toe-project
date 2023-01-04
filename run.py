@@ -125,6 +125,18 @@ def check_vertical(grid):
         return True
 
 
+def check_diagonal(grid):
+    """
+    Checks diagonal rows for 3 identical marks to see if there's a winner.
+    """
+    if grid[0] == grid[4] == grid[8] and grid[0] != "-":
+        winner = grid[0]
+        return True
+    elif grid[2] == grid[4] == grid[6] and grid[4] != "-":
+        winner = grid[2]
+        return True
+
+
 game_introduction()
 start_game()
 clear_console()
