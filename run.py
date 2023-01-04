@@ -97,7 +97,7 @@ def get_user_move():
 
 def check_horizontal(grid):
     """
-    Checks horizontal rows for three identical marks to see if there's a winner.
+    Checks horizontal rows for 3 identical marks to see if there's a winner.
     """
     if grid[0] == grid[1] == grid[2] and grid[0] != "-":
         winner = grid[0]
@@ -107,6 +107,21 @@ def check_horizontal(grid):
         return True
     elif grid[6] == grid[7] == grid[8] and grid[6] != "-":
         winner = grid[6]
+        return True
+
+
+def check_vertical(grid):
+    """
+    Checks vertical rows for 3 identical marks to see if there's a winner.
+    """
+    if grid[0] == grid[3] == grid[6] and grid[0] != "-":
+        winner = grid[0]
+        return True
+    elif grid[1] == grid[4] == grid[7] and grid[1] != "-":
+        winner = grid[1]
+        return True
+    elif grid[2] == grid[5] == grid[8] and grid[2] != "-":
+        winner = grid[3]
         return True
 
 
