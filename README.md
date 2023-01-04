@@ -1,6 +1,6 @@
 # Think-Tac-Toe: The developmental values of the game with a brain
 
-![Web Screenshot](assets/images/mockup.png)
+![Web Screenshot](assets/images/mock-up.png)
 
 The rationale for this project was to create a fun Tic-Tac-Toe game for children, which runs in the Code Institute mock terminal on Heroku. By encouraging logical thinking, Tic-Tac-Toe helps children develop their spatial skills. This skill is important for their problem solving abilities — from everyday simple chores to complex mathematical equations
 
