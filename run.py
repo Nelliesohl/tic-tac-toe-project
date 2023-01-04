@@ -97,6 +97,21 @@ def get_user_move():
             print("\nInvalid input. Try again:")
 
 
+def get_computer_move():
+    """
+    Generates a random number between 0-8.
+    Checks if random generated computer choice is available in grid.
+    Generates a new number if spot is taken.
+    Updates grid with computer move.
+    """
+    while True:
+        computer_choice = random.randint(0, 8)
+
+        if current_player == "o" and grid[computer_choice] == "-":
+            grid[computer_choice] = colorful.bold_red('o')
+            break
+
+
 def alternate_player():
     """
     Alternates between player and computer
