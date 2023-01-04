@@ -82,7 +82,14 @@ def get_user_move():
     """
     Prompts user to input a number between 1-9 to place their mark.
     """
-    user_choice = input("[1-9]... What will be your choice ?\n")
+    while True:
+        user = input("[1-9]... What will be your choice ?\n")
+
+        if user in [str(i) for i in range(1, 10)] and grid[int(user)-1] == "-":
+            grid[int(user)-1] = colorful.bold_green(current_player)
+            break
+        else:
+            print("\nInvalid input. Try again:")
 
 
 game_introduction()
