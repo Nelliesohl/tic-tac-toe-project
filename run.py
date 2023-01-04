@@ -95,6 +95,21 @@ def get_user_move():
             print("\nInvalid input. Try again:")
 
 
+def check_horizontal(grid):
+    """
+    Checks horizontal rows for three identical marks to see if there's a winner.
+    """
+    if grid[0] == grid[1] == grid[2] and grid[0] != "-":
+        winner = grid[0]
+        return True
+    elif grid[3] == grid[4] == grid[5] and grid[3] != "-":
+        winner = grid[3]
+        return True
+    elif grid[6] == grid[7] == grid[8] and grid[6] != "-":
+        winner = grid[6]
+        return True
+
+
 game_introduction()
 start_game()
 clear_console()
