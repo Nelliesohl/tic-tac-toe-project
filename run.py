@@ -187,6 +187,25 @@ def check_board_for_tie(grid):
         print("\nIt is a tie!\n")
 
 
+def play_again():
+    """
+    Prompts user if they want to play again
+    """
+    while True:
+        play_again = input(
+        "Would you like to practice some more? [yes/no]\n").lower()
+
+        if play_again == "yes":
+            clear_console()
+            clear_board()
+            main()
+        elif play_again == "no":
+            clear_console()
+            print("\nThank you for playing! Come back to practice soon")
+        else: 
+            print("\nInvalid input. Try again:")
+
+
 game_introduction()
 start_game()
 clear_console()
