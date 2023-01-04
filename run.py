@@ -165,7 +165,7 @@ def check_diagonal(grid):
 
 
 def check_board_for_win(grid):
-    """ 
+    """
     Checks horizontal, vertical and diagonal rows for winner.
     Prints feedback if winner is found.
     """
@@ -176,6 +176,15 @@ def check_board_for_win(grid):
             print("You're on your way to becoming a Tic-Tac-Toe Champion.\n")
         else:
             print("\nOhno.. The computer won!\n")
+
+
+def check_board_for_tie(grid):
+    """
+    Checks grid for tie
+    Prints feedback if board is full and no winner has been found.
+    """
+    if "-" not in grid:
+        print("\nIt is a tie!\n")
 
 
 game_introduction()
