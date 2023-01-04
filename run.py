@@ -5,6 +5,7 @@ import colorful
 
 # Global variables
 grid = [str("-") for i in range(1, 10)]
+current_player = "x"
 
 
 def game_introduction():
