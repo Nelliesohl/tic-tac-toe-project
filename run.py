@@ -206,6 +206,14 @@ def play_again():
             print("\nInvalid input. Try again:")
 
 
+def clear_board():
+    """
+    Resets grid list
+    """
+    global grid
+    grid = [str("-") for i in range(1, 10)]
+
+
 game_introduction()
 start_game()
 clear_console()
