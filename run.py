@@ -1,5 +1,7 @@
 # https://docs.python.org/3/library/os.html
 import os
+# https://docs.python.org/3/library/random.html
+import random
 # https://github.com/timofurrer/colorful
 import colorful
 
